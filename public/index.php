@@ -23,7 +23,7 @@ $app->singleton(
 );
 
 $app->get('/', function () use ($app) {
-    return 'Photoish service up';
+    return view('index');
 });
 
 $app->get('/i', function () use ($app) {
